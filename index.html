@@ -7,6 +7,7 @@
     <meta name="author" content="Kevin Kuang"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="icon" href="media/favicon.ico">
+    <link rel="stylesheet" href="/style/main.css">
     <title>Meeting Minutes</title>
   </head>
 
@@ -14,9 +15,8 @@
 
     <header>
       <h1><em>Project Momentum</em></h1>
-      <h2>Topic: Project Updates and Planning </h2>
       <nav>
-        <ul>
+        <ul class="nav_list">
           <li><a href="#attendance">Attendance</a></li>
           <li><a href="#agenda">Agenda</a></li>
           <li><a href="#notes">Notes</a></li>
@@ -25,43 +25,45 @@
           <li><a href="#feedback">Feedback</a></li>
         </ul>
       </nav>
+      <h2>Topic: Project Updates and Planning </h2>
+      <h2>Date: <em>April 4, 2024</em></h2>
+      <hr>
     </header>
 
     <main>
-      <section id="event_logs">
-        <h2>Date: <em>April 4, 2024</em></h2>
-        <hr>
-        <h2>Attendance: </h2>
-        <ul id="attendance">
-          <li><i>John Doe</i></li>
-          <li><i>Jane Smith</i></li>
-          <li><i>Alex Johnson</i></li>
-          <li><i>Sarah Lee</i></li>
-          <li><i>Michael Brown</i></li>
-        </ul>
-      </section>
-      <section id="agenda">
-        <h2>Today's Agenda</h2>
-        <ol>
-          <li>Review progress on tasks from the previous week.</li>
-          <li>Discuss any blockers or challenges encountered.</li>
-          <li>Plan upcoming tasks and deadlines.</li>
-          <li>Brainstorm ideas for improving project efficiency.</li>
-          <li>Allocate responsibilities for the next week.</li>
-        </ol>
-        <hr>
-      </section>
-
+      <div class="block_lists">
+        <section id="event_logs">
+          <h2>Attendance: </h2>
+          <ul id="attendance">
+            <li><i>John Doe</i></li>
+            <li><i>Jane Smith</i></li>
+            <li><i>Alex Johnson</i></li>
+            <li><i>Sarah Lee</i></li>
+            <li><i>Michael Brown</i></li>
+          </ul>
+        </section>
+        <section id="agenda">
+          <h2>Today's Agenda</h2>
+          <ol>
+            <li>Review progress on tasks from the previous week.</li>
+            <li>Discuss any blockers or challenges encountered.</li>
+            <li>Plan upcoming tasks and deadlines.</li>
+            <li>Brainstorm ideas for improving project efficiency.</li>
+            <li>Allocate responsibilities for the next week.</li>
+          </ol>
+        </section>
+      </div>
+      <hr>
       <section id="notes">
-        <h3>Unfinished Business: </h3>
+        <h3 class="text_topic">Unfinished Business: </h3>
         <p><strong><em>Finalize Q2 Budget Allocation: </em></strong>This refers to the task of completing the process of allocating financial resources for the second quarter of the year. It involves reviewing budget proposals, assessing available funds, and making decisions on how to distribute the budget across various projects, departments, or initiatives. Finalizing the budget allocation ensures that resources are effectively utilized and aligned with organizational priorities for the upcoming quarter.</p>
         <p><strong><em>Address Technical Issues with Software Update: </em></strong>This entails resolving any technical challenges or issues that have arisen following a recent software update. It may involve identifying and troubleshooting bugs, addressing compatibility issues with existing systems, or implementing patches or fixes to improve the performance and stability of the software. Addressing these technical issues is crucial for ensuring the smooth operation of the software and minimizing disruptions to business processes or user experience.</p>
         <hr>
-        <h3>Fresh Agenda: </h3>
+        <h3 class="text_topic">Fresh Agenda: </h3>
         <p><strong><em>Discuss Feedback from Client Meeting: </em></strong>We'll review and discuss the feedback received from our recent client meeting. This includes any comments, concerns, or suggestions provided by the client regarding our products, services, or ongoing projects. By addressing client feedback promptly, we can ensure client satisfaction, identify areas for improvement, and strengthen our relationships with key stakeholders.</p>
         <p><strong><em>Plan Team Building Activity for Next Month: </em></strong>We'll brainstorm ideas and make plans for an upcoming team-building activity scheduled for next month. This activity aims to foster team cohesion, boost morale, and enhance collaboration among team members. We'll consider various options, such as outdoor activities, workshops, or social events, and determine the logistics, budget, and timeline for organizing the activity. By investing in team building, we can create a positive work environment and strengthen bonds within our team, ultimately enhancing productivity and employee engagement.</p>
         <hr>
-        <h3>Additional Comments: </h3>
+        <h3 class="text_topic">Additional Comments: </h3>
         <ul>
           <li><b>Reminder</b> to update project documentation.</li>
           <li><b>Request</b> for clarification on project milestones.</li>
@@ -71,22 +73,30 @@
       </section>
 
       <section id="media">
-        <h2>Presented Media</h2>
-        <h3>Reportings</h3>
-        <img src="media/Quarterly_Report.webp" alt="Quarterly Report">
-        <details>
-          <summary>Report</summary>
-          <p>In Q1 2024, our company experienced steady growth across key metrics, with a 10% increase in revenue compared to the previous quarter. This growth was driven by strong sales performance in our flagship product lines. Despite market challenges, we maintained a healthy profit margin and invested in strategic initiatives to support long-term growth. Financial highlights include total revenue of $1.5 million, a net profit of $300,000, and positive cash flow with an increase of $200,000 compared to the previous quarter. Sales performance saw increases across Product A, B, and C, with targeted marketing efforts and customer retention strategies driving growth. Operational highlights include improved customer satisfaction, supply chain efficiency enhancements, and continued investment in employee engagement. Looking ahead to Q2 2024, we anticipate further growth driven by new product launches and expanded market reach, while remaining committed to delivering value to customers and stakeholders.</p>
-        </details>
-        <h3>Recorded Meeting</h3>
-        <video controls height="393" width="700">
-          <source src="media/Discussion.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <details>
-          <summary>Summary</summary>
-          <p>During the meeting, we discussed the progress of ongoing projects, addressed key challenges, and planned upcoming initiatives. Attendees provided updates on their respective tasks and shared insights on potential improvements. Unfinished business from the previous meeting, including finalizing Q2 budget allocation and addressing technical issues with the software update, was thoroughly reviewed and action plans were established. Additionally, new business topics such as feedback from client meetings and planning team-building activities for the next month were discussed, with decisions made to move forward on these matters. Overall, the meeting was productive, fostering collaboration and setting clear objectives for the team moving forward.</p>
-        </details>
+        <h2 class="text_topic">Presented Media</h2>
+        <section class="block_lists" id="quarterly_media">
+          <section id="quarterly_report_img">
+            <h3>Reportings</h3>
+            <img src="media/Quarterly_Report.webp" alt="Quarterly Report">
+          </section>
+          <section id="quarterly_report_vid">
+            <h3>Recorded Meeting</h3>
+            <video controls height="393" width="700">
+              <source src="media/Discussion.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </section>
+        </section>
+        <section class="block_lists" id="media_summaries">
+          <details>
+            <summary>Report</summary>
+            <p>In Q1 2024, our company experienced steady growth across key metrics, with a 10% increase in revenue compared to the previous quarter. This growth was driven by strong sales performance in our flagship product lines. Despite market challenges, we maintained a healthy profit margin and invested in strategic initiatives to support long-term growth. Financial highlights include total revenue of $1.5 million, a net profit of $300,000, and positive cash flow with an increase of $200,000 compared to the previous quarter. Sales performance saw increases across Product A, B, and C, with targeted marketing efforts and customer retention strategies driving growth. Operational highlights include improved customer satisfaction, supply chain efficiency enhancements, and continued investment in employee engagement. Looking ahead to Q2 2024, we anticipate further growth driven by new product launches and expanded market reach, while remaining committed to delivering value to customers and stakeholders.</p>
+          </details>
+          <details>
+            <summary>Summary</summary>
+            <p>During the meeting, we discussed the progress of ongoing projects, addressed key challenges, and planned upcoming initiatives. Attendees provided updates on their respective tasks and shared insights on potential improvements. Unfinished business from the previous meeting, including finalizing Q2 budget allocation and addressing technical issues with the software update, was thoroughly reviewed and action plans were established. Additionally, new business topics such as feedback from client meetings and planning team-building activities for the next month were discussed, with decisions made to move forward on these matters. Overall, the meeting was productive, fostering collaboration and setting clear objectives for the team moving forward.</p>
+          </details>
+        </section>
         <h3>Important Conversation</h3>
         <audio controls>
           <source src="media/conversation.mp3" type="audio/mp3">
