@@ -1,7 +1,10 @@
 @import url(var.css);
 
+body {
+  background-color: var(--body-color,white);
+}
 header {
-  background-color: var(--background-color, white);
+  background-color: var(--header-color, white);
 }
 
 /* Fix Display for screen smaller than 412 pixel on x-axis */
