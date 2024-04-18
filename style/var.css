@@ -10,7 +10,12 @@
 	--step-3: clamp(1.9438rem, 1.7707rem + 0.8652vw, 2.4413rem);
 	--step-4: clamp(2.3325rem, 2.0823rem + 1.2511vw, 3.0519rem);
 	--step-5: clamp(2.7994rem, 2.4461rem + 1.7663vw, 3.815rem);
-  
+
+  --header-color:rgb(188, 233, 248);
+  --em-color:teal;
+  --text-topic-color:color(rec2020 0 0.5 0.5);
+  --i-color:hsl(270, 70%, 80%);
+  --body-color:color-mix(in srgb, #34c9eb 10%,white);
 }
 
 /* Modern Reset by Andy Bell */
