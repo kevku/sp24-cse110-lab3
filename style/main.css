@@ -1,14 +1,22 @@
 @import url(var.css);
+
 header {
- display: inline;
+  background-color: var(--background-color, white);
 }
+
 /* Fix Display for screen smaller than 412 pixel on x-axis */
+
+em {
+  color: var(--em-color, lightblue);
+}
 .nav_list {
   display: flex;
   list-style-type: none;
   float: right;
 }
-
+i {
+  color: var(--i-color, purple);
+}
 .nav_list li {
   display: block;
   margin-right: 30px;
@@ -16,6 +24,7 @@ header {
 
 .text_topic {
   text-align: center;
+  color: var(--text-topic-color, blue);
 }
 
 .block_lists {
@@ -32,3 +41,4 @@ details {
   flex: 1;
   margin: 0 5px;
 }
+
