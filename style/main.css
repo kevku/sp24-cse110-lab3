@@ -30,7 +30,7 @@ i {
   color: var(--text-topic-color, blue);
 }
 
-.block_lists {
+.flex_lists {
   display: flex;
   justify-content: center;
   justify-content: space-around;
@@ -38,6 +38,12 @@ i {
 
 #agenda {
   align-self: flex-end;
+}
+
+#quarterly_media {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 details {
