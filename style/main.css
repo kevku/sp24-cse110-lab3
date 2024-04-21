@@ -65,6 +65,20 @@ i {
   border-style: dashed;
 }
 
+#talking_vid {
+  width: 100%;
+  height: auto;
+  max-width: 1fr;
+  max-height: 1fr;
+}
+
+#bar_chart {
+  width: 100%;
+  height: auto;
+  max-width: 1fr;
+  max-height: 1fr;
+}
+
 details {
   flex: 1;
   margin: 0 5px;
