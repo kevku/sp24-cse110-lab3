@@ -112,3 +112,6 @@ details {
   margin: 0 5px;
 }
 
+#weather_component {
+  display: none;
+}
