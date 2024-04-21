@@ -17,12 +17,35 @@ em {
   list-style-type: none;
   float: right;
 }
+
 i {
   color: var(--i-color, purple);
 }
+
 .nav_list li {
   display: block;
   margin-right: 30px;
+}
+
+.nav_list li a {
+  border-style: solid;
+  padding: .5cm;
+}
+
+.nav_list li a:hover {
+  border-style: solid;
+  padding: .7cm;
+  background-color: #206A83;
+  color: lightblue;
+  font-size: x-large;
+}
+
+.nav_list li a:active {
+  border-style: solid;
+  padding: .7cm;
+  background-color: #1E3137;
+  color: white;
+  font-size: x-large;
 }
 
 .text_topic {
