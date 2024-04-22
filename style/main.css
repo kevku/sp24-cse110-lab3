@@ -70,27 +70,27 @@ i {
   grid-template-columns: 1fr 1fr;
 }
 
-.visual_summaries:has(p) {
+.visuals:has(h3) {
   color:#206A83;
 }
 
 .visuals {
   margin: 1vw;
   padding: 5%;
-  border-style: dashed;
+  border-style: solid;
 }
 
 .visual_summaries {
   margin-left: 1em;
   margin: 100px 0 100px 0;
   padding: 1cm 1cm 1cm 1cm;
-  border-style: dashed;
+  border-style: solid;
 }
 
 #audio_recording {
   margin-left: 1em;
   padding-left: 1em;
-  border-style: dashed;
+  border-style: solid;
 }
 
 #talking_vid {
