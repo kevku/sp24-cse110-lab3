@@ -1,5 +1,8 @@
 @import url(var.css);
 
+* {
+  color: #206A83;
+}
 body {
   background-color: var(--body-color,white);
 }
