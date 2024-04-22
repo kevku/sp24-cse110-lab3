@@ -5,6 +5,7 @@ body {
 }
 header {
   background-color: var(--header-color, white);
+  border-radius: .5em;
 }
 
 /* Fix Display for screen smaller than 412 pixel on x-axis */
@@ -25,16 +26,18 @@ i {
 .nav_list li {
   display: block;
   margin-right: 30px;
+  
 }
 
 .nav_list li a {
   border-style: solid;
   padding: .5cm;
-
+  border-radius: 1em;
+  border-width: 3px;
   &:hover {
     padding: .7cm;
     background-color: #206A83;
-    color: lightblue;
+    border-color: green;
     font-size: x-large;
   }
 }
@@ -78,6 +81,7 @@ i {
   margin: 1vw;
   padding: 5%;
   border-style: solid;
+  border-radius: 1em;
 }
 
 .visual_summaries {
@@ -85,12 +89,14 @@ i {
   margin: 100px 0 100px 0;
   padding: 1cm 1cm 1cm 1cm;
   border-style: solid;
+  border-radius: 1em;
 }
 
 #audio_recording {
   margin-left: 1em;
   padding-left: 1em;
   border-style: solid;
+  border-radius: 1em;
 }
 
 #talking_vid {
