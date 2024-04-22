@@ -99,6 +99,14 @@ i {
   border-radius: 1em;
 }
 
+p.visuals {
+  display: none;
+}
+
+p[id] {
+  display: none;
+}
+
 #audio_recording {
   margin-left: 1em;
   padding-left: 1em;
