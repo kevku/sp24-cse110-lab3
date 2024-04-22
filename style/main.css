@@ -121,15 +121,15 @@ p[id] {
 #talking_vid {
   width: 100%;
   height: auto;
-  max-width: 1fr;
-  max-height: 1fr;
+  max-width: 100em;
+  max-height: 100em;
 }
 
 #bar_chart {
   width: 100%;
   height: auto;
-  max-width: 1fr;
-  max-height: 1fr;
+  max-width: 100em;
+  max-height: 100em;
 }
 
 .good_highlight {
