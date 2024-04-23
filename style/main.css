@@ -78,7 +78,7 @@ i {
 }
 
 .visuals:has(h3) {
-  color:#206A83;
+  color:color(from blue srgb r g b / 0.1);
 }
 
 .visuals {
@@ -99,7 +99,7 @@ i {
   padding: 1cm 1cm 1cm 1cm;
   border-style: solid;
   border-radius: 1em;
-  background-color: #ddc9ef;
+  color:color(from blue srgb r g b / 0.1);
 }
 
 p.visuals {
@@ -116,6 +116,7 @@ p[id] {
   border-style: solid;
   border-radius: 1em;
   background-color: #ddc9ef;
+  color:color(from blue srgb r g b / 0.1);
 }
 
 #talking_vid {
