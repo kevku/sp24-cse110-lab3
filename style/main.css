@@ -19,6 +19,7 @@ header {
 em {
   color: var(--em-color, lightblue);
 }
+
 .nav_list {
   display: flex;
   list-style-type: none;
@@ -176,4 +177,36 @@ details {
 
 #another_widget > p {
   padding: 50px 50px 50px 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .nav_list {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 0 0 ;
+    float: right;
+  }
+  .nav_list li a {
+    border-style: solid;
+    padding: .1cm;
+    border-radius: 1em;
+    border-width: 3px;
+    font-size: 12px;
+    margin: 0 0 0 0 ;
+    padding: 0 0 0 0 ;
+    &:hover {
+      padding: .2cm;
+      background-color: white;
+      border-color: green;
+      font-size: small;
+    }
+  }
+  
+  .nav_list li a:active {
+    border-style: solid;
+    padding: .2cm;
+    background-color: #1E3137;
+    color: white;
+    font-size: small;
+  }
 }
